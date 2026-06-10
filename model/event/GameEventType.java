@@ -1,0 +1,16 @@
+package model.event;
+
+public enum GameEventType {
+    WAVE_STARTED,
+    FINAL_WAVE_STARTED,
+    ZOMBIE_SPAWNED,
+    ZOMBIE_DIED,
+    PLANT_PLANTED,
+    PLANT_DESTROYED,
+    SUN_PRODUCED,
+    SUN_DROPPED,
+    SUN_COLLECTED,
+    LAWN_MOWER_TRIGGERED,
+    GAME_WON,
+    GAME_LOST
+}
